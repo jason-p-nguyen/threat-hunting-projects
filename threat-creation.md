@@ -102,7 +102,8 @@ DeviceFileEvents
 ## Additional Notes:
 - **updated Dread Forum Onion URL**
 - **updated cmd line: ```tor-browser-windows-x86_64-portable-14.5.3.exe /S```**
-- **added steps to delete TOR browser folder
+- **added steps to delete TOR browser folder**
+- **update KQL queries**
 
 ---
 
