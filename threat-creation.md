@@ -39,36 +39,49 @@
 
 ## Related Queries:
 ```kql
-// Installer name == tor-browser-windows-x86_64-portable-(version).exe
-// Detect the installer being downloaded
+//check for devicenames
+DeviceInfo
+| distinct DeviceName
+
+//check for my vm
+DeviceInfo
+| where DeviceName == "j-win10-threat-"
+
+//check for logs that show tor was installed
 DeviceFileEvents
+| where DeviceName == "j-win10-threat-"
 | where FileName startswith "tor"
 
-// TOR Browser being silently installed
-// Take note of two spaces before the /S (I don't know why)
+// check to see if tor browser was installed silently
+// note: two spaces before the /S 
 DeviceProcessEvents
-| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.0.1.exe  /S"
+| where DeviceName == "j-win10-threat-"
+| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.5.3.exe  /S"
 | project Timestamp, DeviceName, ActionType, FileName, ProcessCommandLine
 
-// TOR Browser or service was successfully installed and is present on the disk
+// check if tor was successfully installed on the disk
 DeviceFileEvents
+| where DeviceName == "j-win10-threat-"
 | where FileName has_any ("tor.exe", "firefox.exe")
 | project  Timestamp, DeviceName, RequestAccountName, ActionType, InitiatingProcessCommandLine
 
-// TOR Browser or service was launched
+// see if tor browser or service was launched
 DeviceProcessEvents
+| where DeviceName == "j-win10-threat-"
 | where ProcessCommandLine has_any("tor.exe","firefox.exe")
 | project  Timestamp, DeviceName, AccountName, ActionType, ProcessCommandLine
 
-// TOR Browser or service is being used and is actively creating network connections
+// was the tor browser used and created network connections? 
 DeviceNetworkEvents
+| where DeviceName == "j-win10-threat-"
 | where InitiatingProcessFileName in~ ("tor.exe", "firefox.exe")
 | where RemotePort in (9001, 9030, 9040, 9050, 9051, 9150)
 | project Timestamp, DeviceName, InitiatingProcessAccountName, InitiatingProcessFileName, RemoteIP, RemotePort, RemoteUrl
 | order by Timestamp desc
 
-// User shopping list was created and, changed, or deleted
+// was shopping list created and, changed, or deleted?
 DeviceFileEvents
+| where DeviceName == "j-win10-threat-"
 | where FileName contains "shopping-list.txt"
 ```
 
