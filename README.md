@@ -42,7 +42,7 @@ DeviceFileEvents
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, Account = InitiatingProcessAccountName
 ````
 
-![tor-download](images/tor-download.png)
+![tor-download](images/tor-download3.png)
 
 ---
 
@@ -102,7 +102,7 @@ DeviceNetworkEvents
 | project Timestamp, DeviceName, InitiatingProcessAccountName, ActionType, RemoteIP, RemotePort, RemoteUrl, InitiatingProcessFileName, InitiatingProcessFolderPath
 ```
 
-![tor-usage](images/tor-usage.png)
+![tor-usage](images/tor-usage2.png)
 
 ---
 
