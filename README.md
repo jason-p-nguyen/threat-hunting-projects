@@ -99,50 +99,94 @@ DeviceNetworkEvents
 
 ## Chronological Event Timeline 
 
-### 1. File Download - TOR Installer
+## 1. File Renamed - TOR Installer
 
-- **Timestamp:** `2024-11-08T22:14:48.6065231Z`
-- **Event:** The user "employee" downloaded a file named `tor-browser-windows-x86_64-portable-14.0.1.exe` to the Downloads folder.
-- **Action:** File download detected.
-- **File Path:** `C:\Users\employee\Downloads\tor-browser-windows-x86_64-portable-14.0.1.exe`
+**Timestamp:** 2025-06-20T01:57:11.869503Z
+**Event:** The user "uyowfonkmiv" renamed a file named `tor-browser-windows-x86_64-portable-14.5.3.exe` in the Downloads folder.
+**Action:** File rename detected, likely indicating preparation for installation.
+**File Path:**
+`C:\Users\uyowfonkmiv\Downloads\tor-browser-windows-x86_64-portable-14.5.3.exe`
 
-### 2. Process Execution - TOR Browser Installation
+## 2. Process Execution - TOR Browser Installation
 
-- **Timestamp:** `2024-11-08T22:16:47.4484567Z`
-- **Event:** The user "employee" executed the file `tor-browser-windows-x86_64-portable-14.0.1.exe` in silent mode, initiating a background installation of the TOR Browser.
-- **Action:** Process creation detected.
-- **Command:** `tor-browser-windows-x86_64-portable-14.0.1.exe /S`
-- **File Path:** `C:\Users\employee\Downloads\tor-browser-windows-x86_64-portable-14.0.1.exe`
+**Timestamp:** 2025-06-20T02:01:15.2403386Z
+**Event:** The user "uyowfonkmiv" executed the renamed Tor Browser installer in silent mode using the `/S` flag.
+**Action:** Process creation detected.
+**Command:**
+`tor-browser-windows-x86_64-portable-14.5.3.exe /S`
+**File Path:**
+`C:\Users\uyowfonkmiv\Downloads\tor-browser-windows-x86_64-portable-14.5.3.exe`
 
-### 3. Process Execution - TOR Browser Launch
+## 3. File Creation - TOR Program Files
 
-- **Timestamp:** `2024-11-08T22:17:21.6357935Z`
-- **Event:** User "employee" opened the TOR browser. Subsequent processes associated with TOR browser, such as `firefox.exe` and `tor.exe`, were also created, indicating that the browser launched successfully.
-- **Action:** Process creation of TOR browser-related executables detected.
-- **File Path:** `C:\Users\employee\Desktop\Tor Browser\Browser\TorBrowser\Tor\tor.exe`
+**Timestamps:** 2025-06-20T02:01:29Z to 2025-06-20T02:01:38Z
+**Event:** Multiple files related to the Tor Browser were created on the desktop, including the main binary (`tor.exe`), documentation files, and a desktop shortcut.
+**Action:** File creation detected.
+**Files Created:**
 
-### 4. Network Connection - TOR Network
+* tor.exe
+* tor.txt
+* Torbutton.txt
+* Tor-Launcher.txt
+* Tor Browser.lnk
+  **Directory:**
+  `C:\Users\uyowfonkmiv\Desktop\Tor Browser`
 
-- **Timestamp:** `2024-11-08T22:18:01.1246358Z`
-- **Event:** A network connection to IP `176.198.159.33` on port `9001` by user "employee" was established using `tor.exe`, confirming TOR browser network activity.
-- **Action:** Connection success.
-- **Process:** `tor.exe`
-- **File Path:** `c:\users\employee\desktop\tor browser\browser\torbrowser\tor\tor.exe`
+## 4. Process Execution - TOR Browser Launch
 
-### 5. Additional Network Connections - TOR Browser Activity
+**Timestamp:** 2025-06-20T02:02:41.2739331Z
+**Event:** The user launched the Tor Browser (`firefox.exe`) from the desktop directory.
+**Action:** Process creation of Tor Browser detected.
+**File Path:**
+`C:\Users\uyowfonkmiv\Desktop\Tor Browser\Browser\firefox.exe`
 
-- **Timestamps:**
-  - `2024-11-08T22:18:08Z` - Connected to `194.164.169.85` on port `443`.
-  - `2024-11-08T22:18:16Z` - Local connection to `127.0.0.1` on port `9150`.
-- **Event:** Additional TOR network connections were established, indicating ongoing activity by user "employee" through the TOR browser.
-- **Action:** Multiple successful connections detected.
+## 5. Process Execution - TOR Runtime (tor.exe and firefox.exe)
 
-### 6. File Creation - TOR Shopping List
+**Timestamps:** 2025-06-20T02:02:46Z to 2025-06-20T02:03:23Z
+**Event:** The system spawned multiple instances of `firefox.exe` and one `tor.exe` process, indicating full execution of the Tor Browser’s internal architecture.
+**Action:** Multiple process creation events detected.
+**Notable Process:**
+`tor.exe` was run with custom configuration flags using torrc files and SOCKS proxy setup.
+**tor.exe Path:**
+`C:\Users\uyowfonkmiv\Desktop\Tor Browser\Browser\TorBrowser\Tor\tor.exe`
 
-- **Timestamp:** `2024-11-08T22:27:19.7259964Z`
-- **Event:** The user "employee" created a file named `tor-shopping-list.txt` on the desktop, potentially indicating a list or notes related to their TOR browser activities.
-- **Action:** File creation detected.
-- **File Path:** `C:\Users\employee\Desktop\tor-shopping-list.txt`
+## 6. Network Connection - TOR Network Entry
+
+**Timestamp:** 2025-06-20T02:03:09.9754231Z
+**Event:** The user’s system, via `tor.exe`, successfully established an external connection to IP address `93.158.213.15` on port `443`, and also connected to `45.157.234.84` on port `9001`, which is commonly used for Tor relays.
+**Action:** Outbound Tor network traffic confirmed.
+**Process:** `tor.exe`
+**File Path:**
+`C:\Users\uyowfonkmiv\Desktop\Tor Browser\Browser\TorBrowser\Tor\tor.exe`
+
+## 7. Additional Network Connections - Tor Browser Activity
+
+**Timestamps:**
+
+* 2025-06-20T02:03:06Z – Connected to `200.122.181.2` on port `443`
+* 2025-06-20T02:03:08Z – Connected to `86.60.148.189` on port `9001`
+* 2025-06-20T02:03:10Z – Connections to hidden service domains
+* 2025-06-20T02:03:17Z – Localhost communication over port `9150`
+
+**Event:** Multiple successful connections were initiated by both `tor.exe` and `firefox.exe`, suggesting Tor routing and potential browsing.
+**Action:** Ongoing encrypted traffic and relay usage via Tor.
+**Processes:** `tor.exe` and `firefox.exe`
+
+## 8. File Creation - User Note or Artifact
+
+**Timestamp:** 2025-06-20T02:13:03.034063Z
+**Event:** A text file named `tor-shopping-list.txt` was created in the user's Documents folder. This may suggest a list of tasks, sites, or actions related to Tor activity.
+**Action:** File creation detected.
+**File Path:**
+`C:\Users\uyowfonkmiv\Documents\tor-shopping-list.txt`
+
+## 9. File Deletion - Cleanup Activity
+
+**Timestamp:** 2025-06-20T02:13:23Z
+**Event:** The file `tor.exe` was deleted from the Tor Browser installation directory.
+**Action:** File deletion detected, possibly indicating an attempt to cover tracks or uninstall.
+**File Path:**
+`C:\Users\uyowfonkmiv\Desktop\Tor Browser\Browser\TorBrowser\Tor\tor.exe`
 
 ---
 
