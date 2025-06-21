@@ -44,6 +44,8 @@ DeviceFileEvents
 
 ![tor-download](images/tor-download3.png)
 
+**KQL Query Logs (CSV file): [Identifying TOR-Related Files in DeviceFileEvents](logs/tor-download.csv)**
+
 ---
 
 ### 2. Detecting Silent Installation of Tor Browser
@@ -63,6 +65,8 @@ DeviceProcessEvents
 
 ![tor-installation](images/tor-install.png)
 
+**KQL Query Logs (CSV file): [Detecting Silent Installation of Tor Browser](logs/tor-install.csv)**
+
 ---
 
 ### 3. Verifying Execution of Tor Browser
@@ -81,6 +85,8 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
 ```
 ![tor-process-creation](images/tor-process-creation.png)
+
+**KQL Query Logs (CSV file): [Verifying Execution of Tor Browser](logs/tor-process-creation.csv)**
 
 ---
 
@@ -103,6 +109,8 @@ DeviceNetworkEvents
 ```
 
 ![tor-usage](images/tor-usage2.png)
+
+**KQL Query Logs (CSV file): [Confirming Network Communication via Tor](logs/tor-usage.csv)**
 
 ---
 
