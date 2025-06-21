@@ -137,11 +137,11 @@ DeviceNetworkEvents
 - **Event:** Multiple files related to the Tor Browser were created on the desktop, including the main binary (`tor.exe`), documentation files, and a desktop shortcut.
 - **Action:** File creation detected.
 - **Files Created:**
-- * tor.exe
-- * tor.txt
-- * Torbutton.txt
-- * Tor-Launcher.txt
-- * Tor Browser.lnk
+  * tor.exe
+  * tor.txt
+  * Torbutton.txt
+  * Tor-Launcher.txt
+  * Tor Browser.lnk
 - **Directory:** `C:\Users\uyowfonkmiv\Desktop\Tor Browser`
 
 ## 4. Process Execution - TOR Browser Launch
