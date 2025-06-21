@@ -153,12 +153,11 @@ DeviceNetworkEvents
 ## 7. Additional Network Connections - Tor Browser Activity
 
 **Timestamps:**
-
 - * 2025-06-20T02:03:06Z – Connected to `200.122.181.2` on port `443`
 - * 2025-06-20T02:03:08Z – Connected to `86.60.148.189` on port `9001`
 - * 2025-06-20T02:03:10Z – Connections to hidden service domains
 - * 2025-06-20T02:03:17Z – Localhost communication over port `9150`
-
+ 
 - **Event:** Multiple successful connections were initiated by both `tor.exe` and `firefox.exe`, suggesting Tor routing and potential browsing.
 - **Action:** Ongoing encrypted traffic and relay usage via Tor.
 - **Processes:** `tor.exe` and `firefox.exe`
