@@ -1,0 +1,16 @@
+﻿Timestamp,DeviceName,ActionType,FileName,FolderPath,SHA256,Account
+20 Jun 2025 11:13:23 AM,j-win10-threat-,FileDeleted,tor.exe,C:\Users\uyowfonkmiv\Desktop\Tor Browser\Browser\TorBrowser\Tor\tor.exe,,uyowfonkmiv
+20 Jun 2025 11:13:16 AM,j-win10-threat-,FileCreated,webappsstore.sqlite,C:\Users\uyowfonkmiv\Desktop\Tor Browser\Browser\TorBrowser\Data\Browser\profile.default\webappsstore.sqlite,5d77751c0c369d2712286ce161b93e4120945d4205f8ec31f26dbbb54845513e,uyowfonkmiv
+20 Jun 2025 11:13:04 AM,j-win10-threat-,FileCreated,tor-shopping-list.lnk,C:\Users\uyowfonkmiv\AppData\Roaming\Microsoft\Windows\Recent\tor-shopping-list.lnk,8978f5c07c81162e1cbfa5b7d04f5bb775a2f7502e93cd3f363cac66d4ade9eb,uyowfonkmiv
+20 Jun 2025 11:13:03 AM,j-win10-threat-,FileCreated,tor-shopping-list.txt,C:\Users\uyowfonkmiv\Documents\tor-shopping-list.txt,7a8eb2d7afe5d37da6004d9d510e3476085f8f036a2d31e28d6ba2813d466d8c,uyowfonkmiv
+20 Jun 2025 11:03:05 AM,j-win10-threat-,FileModified,edge_tracking_page_validator.js,C:\Windows\SystemTemp\chrome_Unpacker_BeginUnzipping7960_768578992\edge_tracking_page_validator.js,,uyowfonkmiv
+20 Jun 2025 11:03:05 AM,j-win10-threat-,FileModified,edge_confirmation_page_validator.js,C:\Windows\SystemTemp\chrome_Unpacker_BeginUnzipping7960_768578992\edge_confirmation_page_validator.js,,uyowfonkmiv
+20 Jun 2025 11:03:05 AM,j-win10-threat-,FileModified,edge_checkout_page_validator.js,C:\Windows\SystemTemp\chrome_Unpacker_BeginUnzipping7960_768578992\edge_checkout_page_validator.js,,uyowfonkmiv
+20 Jun 2025 11:02:54 AM,j-win10-threat-,FileCreated,storage-sync-v2.sqlite,C:\Users\uyowfonkmiv\Desktop\Tor Browser\Browser\TorBrowser\Data\Browser\profile.default\storage-sync-v2.sqlite,,uyowfonkmiv
+20 Jun 2025 11:02:46 AM,j-win10-threat-,FileCreated,storage.sqlite,C:\Users\uyowfonkmiv\Desktop\Tor Browser\Browser\TorBrowser\Data\Browser\profile.default\storage.sqlite,,uyowfonkmiv
+20 Jun 2025 11:01:38 AM,j-win10-threat-,FileCreated,Tor Browser.lnk,C:\Users\uyowfonkmiv\Desktop\Tor Browser\Tor Browser.lnk,9191e2f9d24a245ddaca842ea1ab5f365c380e8f034ba4375b36460a698a90bf,uyowfonkmiv
+20 Jun 2025 11:01:30 AM,j-win10-threat-,FileCreated,tor.exe,C:\Users\uyowfonkmiv\Desktop\Tor Browser\Browser\TorBrowser\Tor\tor.exe,fe6d44cb69780e09c3a39f499e0e668bff9aa54b6cd9f363b753d59af713bea0,uyowfonkmiv
+20 Jun 2025 11:01:29 AM,j-win10-threat-,FileCreated,tor.txt,C:\Users\uyowfonkmiv\Desktop\Tor Browser\Browser\TorBrowser\Docs\Licenses\tor.txt,47b54ed17e8fdcab3c44729a1789a09b208f9a63a845a7e50def9df729eebad0,uyowfonkmiv
+20 Jun 2025 11:01:29 AM,j-win10-threat-,FileCreated,Torbutton.txt,C:\Users\uyowfonkmiv\Desktop\Tor Browser\Browser\TorBrowser\Docs\Licenses\Torbutton.txt,73b2a217734a2b37ecc0a26e5ba7d429e729f41d98ef0c09caff92f69573b625,uyowfonkmiv
+20 Jun 2025 11:01:29 AM,j-win10-threat-,FileCreated,Tor-Launcher.txt,C:\Users\uyowfonkmiv\Desktop\Tor Browser\Browser\TorBrowser\Docs\Licenses\Tor-Launcher.txt,d4fd98d01e1714e6b86f3b2c721e80f593387de8b10da690625039155fa2104c,uyowfonkmiv
+20 Jun 2025 10:57:11 AM,j-win10-threat-,FileRenamed,tor-browser-windows-x86_64-portable-14.5.3.exe,C:\Users\uyowfonkmiv\Downloads\tor-browser-windows-x86_64-portable-14.5.3.exe,3b7e78a4ccc935cfe71a0e4d41cc297d48a44e722b4a46f73b5562aed9c1d2ea,uyowfonkmiv

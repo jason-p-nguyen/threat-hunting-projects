@@ -1,0 +1,12 @@
+﻿Timestamp,DeviceName,InitiatingProcessAccountName,ActionType,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName,InitiatingProcessFolderPath
+20 Jun 2025 11:03:17 AM,j-win10-threat-,uyowfonkmiv,ConnectionSuccess,127.0.0.1,9150,,firefox.exe,c:\users\uyowfonkmiv\desktop\tor browser\browser\firefox.exe
+20 Jun 2025 11:03:10 AM,j-win10-threat-,uyowfonkmiv,ConnectionSuccess,86.60.148.189,9001,https://www.jqmsvwb42igwpepoiayvsc.com,tor.exe,c:\users\uyowfonkmiv\desktop\tor browser\browser\torbrowser\tor\tor.exe
+20 Jun 2025 11:03:10 AM,j-win10-threat-,uyowfonkmiv,ConnectionSuccess,45.157.234.84,9001,https://www.phtc3ourrkeb72.com,tor.exe,c:\users\uyowfonkmiv\desktop\tor browser\browser\torbrowser\tor\tor.exe
+20 Jun 2025 11:03:09 AM,j-win10-threat-,uyowfonkmiv,ConnectionSuccess,93.158.213.15,443,https://www.zoshjt3tdr5z6vzcm37zb.com,tor.exe,c:\users\uyowfonkmiv\desktop\tor browser\browser\torbrowser\tor\tor.exe
+20 Jun 2025 11:03:09 AM,j-win10-threat-,uyowfonkmiv,ConnectionSuccess,45.157.234.84,9001,,tor.exe,c:\users\uyowfonkmiv\desktop\tor browser\browser\torbrowser\tor\tor.exe
+20 Jun 2025 11:03:09 AM,j-win10-threat-,uyowfonkmiv,ConnectionSuccess,93.158.213.15,443,,tor.exe,c:\users\uyowfonkmiv\desktop\tor browser\browser\torbrowser\tor\tor.exe
+20 Jun 2025 11:03:08 AM,j-win10-threat-,uyowfonkmiv,ConnectionSuccess,86.60.148.189,9001,,tor.exe,c:\users\uyowfonkmiv\desktop\tor browser\browser\torbrowser\tor\tor.exe
+20 Jun 2025 11:03:07 AM,j-win10-threat-,uyowfonkmiv,ConnectionSuccess,200.122.181.2,443,https://www.xopbiixqumv.com,tor.exe,c:\users\uyowfonkmiv\desktop\tor browser\browser\torbrowser\tor\tor.exe
+20 Jun 2025 11:03:06 AM,j-win10-threat-,uyowfonkmiv,ConnectionSuccess,200.122.181.2,443,,tor.exe,c:\users\uyowfonkmiv\desktop\tor browser\browser\torbrowser\tor\tor.exe
+20 Jun 2025 11:02:53 AM,j-win10-threat-,uyowfonkmiv,ConnectionSuccess,127.0.0.1,9151,,firefox.exe,c:\users\uyowfonkmiv\desktop\tor browser\browser\firefox.exe
+20 Jun 2025 11:02:53 AM,j-win10-threat-,uyowfonkmiv,ConnectionFailed,127.0.0.1,9151,,firefox.exe,c:\users\uyowfonkmiv\desktop\tor browser\browser\firefox.exe
