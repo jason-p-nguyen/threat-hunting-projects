@@ -3,8 +3,7 @@
 **Large Sensitive File Uploaded to Unauthorized Cloud Storage (Dropbox)**
 
 ---
-
-## Steps the "Bad Actor" Took to Create Logs and IoCs:
+## Pre-steps: 
 
 1. **Created a fake corporate user** (John Doe) to simulate insider behavior
 
@@ -23,6 +22,8 @@
 
    * Email: `johndoe197541@proton.me`
    * Dropbox account created with same address
+
+## Steps the "Bad Actor" Took to Create Logs and IoCs:
 
 4. **Downloaded and installed Dropbox silently:**
 
