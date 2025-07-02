@@ -1,0 +1,4 @@
+FirstName,LastName,Email,EmployeeID,Department,Salary
+John,Doe,jdoe@company.com,EMP1001,Finance,88000
+Tina,Lee,tlee@company.com,EMP1022,Sales,76500
+Raj,Patel,rpatel@company.com,EMP1033,IT,94000
