@@ -203,3 +203,12 @@ On July 2, 2025, user `jnguyen.admin` on workstation `fin-w10-wks-8` downloaded 
 * **Post-Incident Audit:** Scheduled
 
 ![MITRE ATT&CK Technique: T1567.002](https://img.shields.io/badge/MITRE_ATT%26CK-T1567.002%20--%20Exfiltration_Over_Web_Service-blue)
+
+### Visual Map (Markdown Style)
+
+🧱 Cyber Kill Chain → 🎯 MITRE ATT&CK Techniques
+
+- **Delivery** → `T1105 – Ingress Tool Transfer`
+- **Installation** → `T1136.001 – Create Local Account`
+- **C2** → `T1071.001 – Web Protocol`
+- **Actions on Objectives** → `T1567.002 – Exfil Over Web Services`
