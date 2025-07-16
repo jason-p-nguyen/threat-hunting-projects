@@ -202,3 +202,4 @@ On July 2, 2025, user `jnguyen.admin` on workstation `fin-w10-wks-8` downloaded 
 * **Data Gaps:** None observed
 * **Post-Incident Audit:** Scheduled
 
+![MITRE ATT&CK Technique: T1567.002](https://img.shields.io/badge/MITRE_ATT%26CK-T1567.002%20--%20Exfiltration_Over_Web_Service-blue)
