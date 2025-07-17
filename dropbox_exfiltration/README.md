@@ -1,4 +1,4 @@
-# Threat Hunt Report: Dropbox Data Exfiltration
+# Threat Hunt Report: Dropbox Data Exfiltration (Insider Threat)
 
 ## Platforms and Languages Leveraged
 
