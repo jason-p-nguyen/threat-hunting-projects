@@ -15,6 +15,13 @@ An employee in the finance department reported witnessing a colleague drag and d
 
 [See how I built this hunt: Step-by-step scenario creation for Dropbox Exfiltration](dropbox_exfiltration_scenario_creation.md)
 
+
+## Hunt Objective
+
+Investigate whether Dropbox or other unauthorized cloud storage services have been accessed within the corporate network. Determine if any sensitive or confidential data was exfiltrated by the suspected user or others.
+
+Detection of Unauthorized Dropbox Installation and Data Exfiltration on Workstation: **`FIN-W10-WKS-8`**
+
 ---
 
 ### High-Level Dropbox-Related IoC Discovery Plan
