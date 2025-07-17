@@ -73,6 +73,8 @@ DeviceFileEvents
   * `Quarterly_Financial_Projections_Q3.docx`
 * Files later deleted from Dropbox directory around `14:32`
 
+[DeviceFileEvents Logs →](logs/dropbox-exfiltration-file-logs.csv)
+
 ---
 
 ### 2. Confirming Dropbox Installation via DeviceProcessEvents
@@ -96,6 +98,8 @@ DeviceProcessEvents
 * Dropbox installed via: `DropboxInstaller.exe /S` (silent install) at `14:17:48`
 * `Dropbox.exe` observed running at `14:29`
 * Uninstallation process initiated around `14:31`
+
+[DeviceProcessEvents Logs →](logs/dropbox-exfiltration-process-logs.csv)
 
 ---
 
@@ -122,6 +126,8 @@ DeviceNetworkEvents
   * `api.dropbox.com` → `162.125.6.19` and `162.125.6.20`
 * Final connection observed at `14:32:49`, correlating with uninstallation activity
 
+[DeviceNetworkEvents Logs →](logs/dropbox-exfiltration-network-logs.csv)
+
 ---
 
 ### 4. Verifying Local Application and Folder via DeviceEvents
@@ -142,6 +148,8 @@ DeviceEvents
 
 * Execution of `Dropbox.exe` at `14:29:58`
 * Folder activity in `AppData\Roaming\Dropbox`
+
+[DeviceEvents Logs →](logs/dropbox-exfiltration-device-logs.csv)
 
 ---
 
