@@ -15,6 +15,21 @@ An employee in the finance department reported witnessing a colleague drag and d
 
 [See how I built this hunt: Step-by-step scenario creation for Dropbox Exfiltration](dropbox_exfiltration_scenario_creation.md)
 
+## 🔗 Kill Chain ↔ MITRE ATT&CK Mapping
+
+🧱 **Cyber Kill Chain** → 🎯 **MITRE ATT&CK Techniques**
+
+- **Delivery** → `T1105 – Ingress Tool Transfer`  
+  *(Dropbox client downloaded and introduced into the system)*
+
+- **Installation** → `T1059.001 – Command and Scripting Interpreter: PowerShell`  
+  *(Dropbox silently installed using `/S` flag or scripting interface)*
+
+- **Command & Control (C2)** → `T1071.001 – Application Layer Protocol: Web Protocols`  
+  *(Dropbox syncing via HTTPS connections to api.dropbox.com, client.dropbox.com)*
+
+- **Actions on Objectives** → `T1567.002 – Exfiltration Over Web Services: Dropbox`  
+  *(Sensitive files placed into Dropbox folder and transferred externally)*
 
 ## Hunt Objective
 
