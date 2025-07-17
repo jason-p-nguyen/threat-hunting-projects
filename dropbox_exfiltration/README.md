@@ -11,7 +11,7 @@
 
 ## Scenario
 
-An employee in the finance department reported witnessing a colleague drag and drop documents into a web-based Dropbox interface. Dropbox is not authorized within the company, and concerns were raised about potential data exfiltration. The incident was escalated to the Security Operations Center (SOC) to investigate any unauthorized Dropbox usage and whether sensitive files were transferred externally.
+An employee in the finance department reported witnessing a colleague drag and drop documents into a web-based Dropbox interface. Dropbox is not authorised within the company, and concerns were raised about potential data exfiltration. The incident was escalated to the Security Operations Center (SOC) to investigate any unauthorized Dropbox usage and whether sensitive files were transferred externally.
 
 [See how I built this hunt: Step-by-step scenario creation for Dropbox Exfiltration](dropbox_exfiltration_scenario_creation.md)
 
@@ -35,7 +35,7 @@ An employee in the finance department reported witnessing a colleague drag and d
 
 Investigate whether Dropbox or other unauthorized cloud storage services have been accessed within the corporate network. Determine if any sensitive or confidential data was exfiltrated by the suspected user or others.
 
-Detection of Unauthorized Dropbox Installation and Data Exfiltration on Workstation: **`FIN-W10-WKS-8`**
+Detection of unauthorised Dropbox installation and data exfiltration on Workstation: **`FIN-W10-WKS-8`**
 
 ---
 
@@ -246,17 +246,5 @@ On July 2, 2025, user `jnguyen.admin` on workstation `fin-w10-wks-8` downloaded 
 
 ## Additional Notes
 
-* **MITRE ATT\&CK Mapping:** Exfiltration Over Web Service (T1567.002)
 * **Data Gaps:** None observed
 * **Post-Incident Audit:** Scheduled
-
-![MITRE ATT&CK Technique: T1567.002](https://img.shields.io/badge/MITRE_ATT%26CK-T1567.002%20--%20Exfiltration_Over_Web_Service-blue)
-
-### Visual Map (Markdown Style)
-
-🧱 Cyber Kill Chain → 🎯 MITRE ATT&CK Techniques
-
-- **Delivery** → `T1105 – Ingress Tool Transfer`
-- **Installation** → `T1136.001 – Create Local Account`
-- **C2** → `T1071.001 – Web Protocol`
-- **Actions on Objectives** → `T1567.002 – Exfil Over Web Services`
