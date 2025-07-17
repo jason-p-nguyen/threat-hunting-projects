@@ -62,7 +62,7 @@ DeviceFileEvents
 | project Timestamp, FileName, FolderPath, ActionType, InitiatingProcessCommandLine, SHA256
 ```
 
-![DeviceFileEvents](screenshots/dropbox_file_events.png)
+![DeviceFileEvents](screenshots/1-file-dropbox-activity.png)
 
 **Key Findings:**
 
@@ -89,7 +89,7 @@ DeviceProcessEvents
 | project Timestamp, FileName, FolderPath, ProcessCommandLine, SHA256
 ```
 
-![DeviceProcessEvents](screenshots/dropbox_process_events.png)
+![DeviceProcessEvents](screenshots/2-dropbox-installation-process.png)
 
 **Key Findings:**
 
@@ -112,7 +112,7 @@ DeviceNetworkEvents
 | project Timestamp, RemoteIP, RemoteUrl, InitiatingProcessCommandLine
 ```
 
-![DeviceNetworkEvents](screenshots/dropbox_network_events.png)
+![DeviceNetworkEvents](screenshots/3-dropbox-network-connection.png)
 
 **Key Findings:**
 
@@ -136,7 +136,7 @@ DeviceEvents
 | order by Timestamp asc
 ```
 
-![DeviceEvents](screenshots/dropbox_device_events.png)
+![DeviceEvents](screenshots/4-deviceevents.png)
 
 **Key Findings:**
 
@@ -152,10 +152,16 @@ DeviceEvents
 * **Timestamp:** 2025-07-02T14:14:42
 * **Event:** `DropboxInstaller.exe` downloaded to `Downloads` folder
 
+![DeviceFileEvents](screenshots/5-dropbox-installer-download.png)
+
+
 ### 2. Dropbox Installed (Silently)
 
 * **Timestamp:** 2025-07-02T14:17:48
 * **Command:** `DropboxInstaller.exe /S`
+
+![DeviceFileEvents](screenshots/2-dropbox-installation-process.png)
+
 
 ### 3. File Upload to Dropbox Folder
 
@@ -165,10 +171,16 @@ DeviceEvents
   * `Employee_Record_Dump.csv`
   * `Quarterly_Financial_Projections_Q3.docx`
 
+![DeviceFileEvents](screenshots/6-confidential-files.png)
+
+![DeviceFileEvents](screenshots/7-files-upload-dropbox.png)
+
 ### 4. Dropbox Executable Running
 
 * **Timestamp:** 2025-07-02T14:29:58
 * **Process:** `Dropbox.exe`
+
+![DeviceFileEvents](screenshots/4-deviceevents.png)
 
 ### 5. Outbound Connection to Dropbox
 
@@ -182,6 +194,12 @@ DeviceEvents
 
   * Dropbox folder purged
   * Final network event to `dropbox.com` at `14:32:49`
+
+![DeviceFileEvents](screenshots/8-file-dropbox-deleted.png)
+
+![DeviceFileEvents](screenshots/9-network-dropbox-uninstall.png)
+
+![DeviceFileEvents](screenshots/10-process-dropbox-uninstallation.png)
 
 ---
 
