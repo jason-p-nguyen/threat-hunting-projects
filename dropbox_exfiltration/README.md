@@ -248,3 +248,10 @@ On July 2, 2025, user `jnguyen.admin` on workstation `fin-w10-wks-8` downloaded 
 
 * **Data Gaps:** None observed
 * **Post-Incident Audit:** Scheduled
+
+---
+
+## 📘 Postmortem
+
+You can read the full project retrospective, including what worked, what didn’t, and what I plan to improve in the future here:  
+🔗 [Read the full postmortem →](project-postmortem.md)
