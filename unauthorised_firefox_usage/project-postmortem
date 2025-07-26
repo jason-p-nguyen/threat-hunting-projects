@@ -43,6 +43,7 @@ Simulated an unauthorized installation and usage of Firefox by an employee in a 
 
 **Mistakes & Oversights:**
 - The **threat actor's persona** was not well-defined. In retrospect, a finance employee likely wouldn’t know how to use PowerShell for a silent install, so the scenario needed clearer boundaries on the actor's skills and intent.
+- I forgot to download and add logs of the KQL queries to the GitHub project folder. 
 
 **Unexpected Difficulties:**
 - None major, since the process followed a similar flow to the earlier Tor usage lab.
