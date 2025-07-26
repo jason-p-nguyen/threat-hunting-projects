@@ -165,3 +165,10 @@ The user then downloaded and silently installed **Free Download Manager**, and d
 * **Data Gaps:** None noted
 * **KQL Query Logs:** Available upon request
 * **Screenshot Evidence:** Collected locally for internal review
+
+---
+
+## 📘 Postmortem
+
+You can read the full project retrospective, including what worked, what didn’t, and what I plan to improve in the future here:  
+🔗 [Read the full postmortem →](project-postmortem.md)
